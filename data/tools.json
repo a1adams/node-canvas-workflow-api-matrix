@@ -1,0 +1,357 @@
+{
+  "keyword": "node-based ai workflow api",
+  "title": "Node-based AI workflow API matrix: runs, webhooks, idempotency and MCP across 8 canvases",
+  "lastChecked": "2026-10-02",
+  "capabilityChecks": [
+    {
+      "key": "runWorkflowViaApi",
+      "label": "Run workflow via API"
+    },
+    {
+      "key": "asyncJobPolling",
+      "label": "Async job + polling"
+    },
+    {
+      "key": "webhookTriggerUrl",
+      "label": "Webhook trigger URL"
+    },
+    {
+      "key": "completionWebhook",
+      "label": "Completion webhook"
+    },
+    {
+      "key": "idempotencyKey",
+      "label": "Idempotency key"
+    },
+    {
+      "key": "costInRunResponse",
+      "label": "Cost in run response"
+    },
+    {
+      "key": "mcpServer",
+      "label": "MCP server"
+    },
+    {
+      "key": "scopedPermissions",
+      "label": "Scoped permissions"
+    },
+    {
+      "key": "selfHost",
+      "label": "Self-host"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": null,
+      "homepage": "https://www.wireflow.ai/ai-node-editor-with-api",
+      "docs": "https://www.wireflow.ai/docs/api",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "Hosted MCP, Streamable HTTP, OAuth 2.1",
+      "restApi": true,
+      "modelSupport": "Image, video and audio model nodes",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/docs/api"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": true,
+        "asyncJobPolling": true,
+        "webhookTriggerUrl": true,
+        "completionWebhook": null,
+        "idempotencyKey": true,
+        "costInRunResponse": true,
+        "mcpServer": true,
+        "scopedPermissions": true,
+        "selfHost": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "Figma Weave",
+      "tagline": null,
+      "homepage": "https://weave.figma.com",
+      "docs": "https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/",
+      "pricing": "https://weave.figma.com/pricing",
+      "claudeConnection": "Weave tools through the Figma MCP server",
+      "restApi": null,
+      "modelSupport": "Image and video model nodes",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": null,
+        "asyncJobPolling": null,
+        "webhookTriggerUrl": null,
+        "completionWebhook": null,
+        "idempotencyKey": null,
+        "costInRunResponse": null,
+        "mcpServer": true,
+        "scopedPermissions": null,
+        "selfHost": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 3,
+      "name": "Flora",
+      "tagline": null,
+      "homepage": "https://flora.ai",
+      "docs": "https://developer.flora.ai/api/",
+      "pricing": "https://flora.ai/pricing",
+      "claudeConnection": "Hosted MCP, Streamable HTTP, OAuth 2.1",
+      "restApi": true,
+      "modelSupport": "Image, video, audio and text generations",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://developer.flora.ai/api/"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": true,
+        "asyncJobPolling": true,
+        "webhookTriggerUrl": null,
+        "completionWebhook": true,
+        "idempotencyKey": true,
+        "costInRunResponse": true,
+        "mcpServer": true,
+        "scopedPermissions": true,
+        "selfHost": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "Krea Nodes",
+      "tagline": null,
+      "homepage": "https://www.krea.ai/nodes",
+      "docs": "https://www.krea.ai/docs/developers/introduction",
+      "pricing": null,
+      "claudeConnection": "Hosted MCP, Streamable HTTP, OAuth or API token",
+      "restApi": true,
+      "modelSupport": "Image, video, audio and 3D model endpoints",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://www.krea.ai/docs/developers/introduction"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": true,
+        "asyncJobPolling": true,
+        "webhookTriggerUrl": null,
+        "completionWebhook": null,
+        "idempotencyKey": null,
+        "costInRunResponse": null,
+        "mcpServer": true,
+        "scopedPermissions": null,
+        "selfHost": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "Comfy Cloud",
+      "tagline": null,
+      "homepage": "https://comfy.org/cloud",
+      "docs": "https://docs.comfy.org/api-reference/v2/overview",
+      "pricing": "https://comfy.org/pricing",
+      "claudeConnection": "Hosted MCP (public beta), OAuth or API key",
+      "restApi": true,
+      "modelSupport": "ComfyUI nodes plus partner models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested. Comfy API v2 is in beta.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.comfy.org/api-reference/v2/overview"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": true,
+        "asyncJobPolling": true,
+        "webhookTriggerUrl": null,
+        "completionWebhook": false,
+        "idempotencyKey": true,
+        "costInRunResponse": null,
+        "mcpServer": true,
+        "scopedPermissions": null,
+        "selfHost": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "ComfyUI (self-hosted)",
+      "tagline": null,
+      "homepage": "https://github.com/Comfy-Org/ComfyUI",
+      "docs": "https://docs.comfy.org/development/comfyui-server/comms_routes",
+      "pricing": null,
+      "claudeConnection": "comfy-mcp, local stdio server",
+      "restApi": true,
+      "modelSupport": "Models and custom nodes you install",
+      "freeTier": "unverified",
+      "repo": "Comfy-Org/ComfyUI",
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.comfy.org/development/comfyui-server/comms_routes"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": true,
+        "asyncJobPolling": true,
+        "webhookTriggerUrl": null,
+        "completionWebhook": false,
+        "idempotencyKey": true,
+        "costInRunResponse": null,
+        "mcpServer": true,
+        "scopedPermissions": null,
+        "selfHost": true
+      },
+      "live": {
+        "stars": 135790,
+        "lastPush": "2026-10-02T02:05:57Z",
+        "latestRelease": "v0.38.0",
+        "latestReleaseDate": "2026-09-29",
+        "checkedAt": "2026-10-02"
+      }
+    },
+    {
+      "n": 7,
+      "name": "Freepik Spaces",
+      "tagline": null,
+      "homepage": "https://www.magnific.com/spaces",
+      "docs": "https://docs.magnific.com/introduction",
+      "pricing": "https://docs.magnific.com/pricing",
+      "claudeConnection": "Magnific MCP, Streamable HTTP, OAuth",
+      "restApi": null,
+      "modelSupport": "Image, video and audio model endpoints",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.magnific.com/introduction"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": null,
+        "asyncJobPolling": null,
+        "webhookTriggerUrl": null,
+        "completionWebhook": null,
+        "idempotencyKey": null,
+        "costInRunResponse": null,
+        "mcpServer": true,
+        "scopedPermissions": null,
+        "selfHost": null
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 8,
+      "name": "n8n",
+      "tagline": null,
+      "homepage": "https://n8n.io",
+      "docs": "https://docs.n8n.io/connect/n8n-api",
+      "pricing": "https://n8n.io/pricing/",
+      "claudeConnection": "Instance-level MCP server and MCP Server Trigger node",
+      "restApi": true,
+      "modelSupport": "Workflow automation with AI nodes",
+      "freeTier": "unverified",
+      "repo": "n8n-io/n8n",
+      "note": "Documentation review 2026-09-28; product and account behaviour were not tested.",
+      "quickstart": [
+        {
+          "label": "Setup reference: follow the official authentication and request guide. This is a documentation URL, not an executed API example.",
+          "lang": "text",
+          "code": "https://docs.n8n.io/connect/n8n-api"
+        }
+      ],
+      "capabilities": {
+        "runWorkflowViaApi": true,
+        "asyncJobPolling": null,
+        "webhookTriggerUrl": true,
+        "completionWebhook": null,
+        "idempotencyKey": null,
+        "costInRunResponse": null,
+        "mcpServer": true,
+        "scopedPermissions": true,
+        "selfHost": true
+      },
+      "live": {
+        "stars": 206477,
+        "lastPush": "2026-10-01T23:11:49Z",
+        "latestRelease": "n8n@2.41.5",
+        "latestReleaseDate": "2026-10-01",
+        "checkedAt": "2026-10-02"
+      }
+    }
+  ]
+}
