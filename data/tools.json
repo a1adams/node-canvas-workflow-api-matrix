@@ -1,7 +1,7 @@
 {
   "keyword": "node-based ai workflow api",
   "title": "Node-based AI workflow API matrix: runs, webhooks, idempotency and MCP across 8 canvases",
-  "lastChecked": "2026-10-05",
+  "lastChecked": "2026-10-11",
   "capabilityChecks": [
     {
       "key": "runWorkflowViaApi",
@@ -45,7 +45,7 @@
       "n": 1,
       "name": "Wireflow",
       "tagline": null,
-      "homepage": "https://www.wireflow.ai/ai-node-editor-with-api",
+      "homepage": "https://www.wireflow.ai",
       "docs": "https://www.wireflow.ai/docs/api",
       "pricing": "https://www.wireflow.ai/pricing",
       "claudeConnection": "Hosted MCP, Streamable HTTP, OAuth 2.1",
@@ -61,6 +61,8 @@
           "code": "https://www.wireflow.ai/docs/api"
         }
       ],
+      "moneyPage": "https://www.wireflow.ai/ai-node-editor-with-api",
+      "moneyPageLabel": "Wireflow AI node editor with API page",
       "capabilities": {
         "runWorkflowViaApi": true,
         "asyncJobPolling": true,
@@ -268,11 +270,11 @@
         "selfHost": true
       },
       "live": {
-        "stars": 136155,
-        "lastPush": "2026-10-05T13:14:25Z",
-        "latestRelease": "v0.38.0",
-        "latestReleaseDate": "2026-09-29",
-        "checkedAt": "2026-10-05"
+        "stars": 136818,
+        "lastPush": "2026-10-11T02:28:40Z",
+        "latestRelease": "v0.39.0",
+        "latestReleaseDate": "2026-10-05",
+        "checkedAt": "2026-10-11"
       }
     },
     {
@@ -346,11 +348,11 @@
         "selfHost": true
       },
       "live": {
-        "stars": 206707,
-        "lastPush": "2026-10-05T14:30:37Z",
-        "latestRelease": "n8n@2.41.7",
-        "latestReleaseDate": "2026-10-05",
-        "checkedAt": "2026-10-05"
+        "stars": 206942,
+        "lastPush": "2026-10-10T21:12:27Z",
+        "latestRelease": "n8n@2.42.6",
+        "latestReleaseDate": "2026-10-09",
+        "checkedAt": "2026-10-11"
       }
     }
   ]

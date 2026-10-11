@@ -2,13 +2,22 @@
 
 A maintained dataset of **node-based ai workflow api** options: what each one connects to, where it stops, how to run it, and a link to the vendor's own pricing page rather than a price that will be wrong by the time you read it.
 
+1. **[Wireflow](https://www.wireflow.ai/ai-node-editor-with-api)**
+2. **[Figma Weave](https://weave.figma.com)**
+3. **[Flora](https://flora.ai)**
+4. **[Krea Nodes](https://www.krea.ai/nodes)**
+5. **[Comfy Cloud](https://comfy.org/cloud)**
+6. **[ComfyUI (self-hosted)](https://github.com/Comfy-Org/ComfyUI)**
+7. **[Freepik Spaces](https://www.magnific.com/spaces)**
+8. **[n8n](https://n8n.io)**
+
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-05** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
-Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
 
@@ -41,45 +50,47 @@ One row per tool, one column per thing people actually check before committing. 
 <!-- DATA-TABLE:START -->
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
-| **[Wireflow](#1-wireflow)** | Hosted MCP, Streamable HTTP, OAuth 2.1 | Yes | [check](https://www.wireflow.ai/pricing) | Image, video and audio model nodes | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[Figma Weave](#2-figma-weave)** | Weave tools through the Figma MCP server | — | [check](https://weave.figma.com/pricing) | Image and video model nodes | [pricing](https://weave.figma.com/pricing) | — |
-| **[Flora](#3-flora)** | Hosted MCP, Streamable HTTP, OAuth 2.1 | Yes | [check](https://flora.ai/pricing) | Image, video, audio and text generations | [pricing](https://flora.ai/pricing) | — |
-| **[Krea Nodes](#4-krea-nodes)** | Hosted MCP, Streamable HTTP, OAuth or API token | Yes | — | Image, video, audio and 3D model endpoints | — | — |
-| **[Comfy Cloud](#5-comfy-cloud)** | Hosted MCP (public beta), OAuth or API key | Yes | [check](https://comfy.org/pricing) | ComfyUI nodes plus partner models | [pricing](https://comfy.org/pricing) | — |
-| **[ComfyUI (self-hosted)](#6-comfyui-self-hosted)** | comfy-mcp, local stdio server | Yes | — | Models and custom nodes you install | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 136,155 ★, v0.38.0 |
-| **[Freepik Spaces](#7-freepik-spaces)** | Magnific MCP, Streamable HTTP, OAuth | — | [check](https://docs.magnific.com/pricing) | Image, video and audio model endpoints | [pricing](https://docs.magnific.com/pricing) | — |
-| **[n8n](#8-n8n)** | Instance-level MCP server and MCP Server Trigger node | Yes | [check](https://n8n.io/pricing/) | Workflow automation with AI nodes | [pricing](https://n8n.io/pricing/) | [n8n-io/n8n](https://github.com/n8n-io/n8n) — 206,707 ★, n8n@2.41.7 |
+| **[Wireflow](#1-wireflow)** | Hosted MCP, Streamable HTTP, OAuth 2.1 | Yes | [check](https://www.wireflow.ai/pricing) | Image, video and audio model nodes | [pricing](https://www.wireflow.ai/pricing) | n/a |
+| **[Figma Weave](#2-figma-weave)** | Weave tools through the Figma MCP server | n/a | [check](https://weave.figma.com/pricing) | Image and video model nodes | [pricing](https://weave.figma.com/pricing) | n/a |
+| **[Flora](#3-flora)** | Hosted MCP, Streamable HTTP, OAuth 2.1 | Yes | [check](https://flora.ai/pricing) | Image, video, audio and text generations | [pricing](https://flora.ai/pricing) | n/a |
+| **[Krea Nodes](#4-krea-nodes)** | Hosted MCP, Streamable HTTP, OAuth or API token | Yes | n/a | Image, video, audio and 3D model endpoints | n/a | n/a |
+| **[Comfy Cloud](#5-comfy-cloud)** | Hosted MCP (public beta), OAuth or API key | Yes | [check](https://comfy.org/pricing) | ComfyUI nodes plus partner models | [pricing](https://comfy.org/pricing) | n/a |
+| **[ComfyUI (self-hosted)](#6-comfyui-self-hosted)** | comfy-mcp, local stdio server | Yes | n/a | Models and custom nodes you install | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 136,818 ★, v0.39.0 |
+| **[Freepik Spaces](#7-freepik-spaces)** | Magnific MCP, Streamable HTTP, OAuth | n/a | [check](https://docs.magnific.com/pricing) | Image, video and audio model endpoints | [pricing](https://docs.magnific.com/pricing) | n/a |
+| **[n8n](#8-n8n)** | Instance-level MCP server and MCP Server Trigger node | Yes | [check](https://n8n.io/pricing/) | Workflow automation with AI nodes | [pricing](https://n8n.io/pricing/) | [n8n-io/n8n](https://github.com/n8n-io/n8n), 206,942 ★, n8n@2.42.6 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
 
-The score counts how many of the checks in [`data/tools.json`](data/tools.json) → `capabilityChecks` a tool passes. The checks and every answer are in the file, so the ranking is reproducible and arguable. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
+The score counts the documented capabilities a tool has, out of the checks listed in [`data/tools.json`](data/tools.json) under `capabilityChecks`. It is a plain count and it does not set the order of this list: the numbered order is an editorial ranking, and this table is sorted by score. The checks and every answer are in the file, so each cell can be checked. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
 
 <!-- CAPABILITY-SCORES:START -->
 | Tool | Run workflow via API | Async job + polling | Webhook trigger URL | Completion webhook | Idempotency key | Cost in run response | MCP server | Scoped permissions | Self-host | Score |
 |------|---|---|---|---|---|---|---|---|---|-------|
-| **[Wireflow](#1-wireflow)** | ✅ | ✅ | ✅ | — | ✅ | ✅ | ✅ | ✅ | — | **7/9** |
-| **[Flora](#3-flora)** | ✅ | ✅ | — | ✅ | ✅ | ✅ | ✅ | ✅ | — | **7/9** |
-| **[ComfyUI (self-hosted)](#6-comfyui-self-hosted)** | ✅ | ✅ | — | ❌ | ✅ | — | ✅ | — | ✅ | **5/9** |
-| **[n8n](#8-n8n)** | ✅ | — | ✅ | — | — | — | ✅ | ✅ | ✅ | **5/9** |
-| **[Comfy Cloud](#5-comfy-cloud)** | ✅ | ✅ | — | ❌ | ✅ | — | ✅ | — | — | **4/9** |
-| **[Krea Nodes](#4-krea-nodes)** | ✅ | ✅ | — | — | — | — | ✅ | — | — | **3/9** |
-| **[Figma Weave](#2-figma-weave)** | — | — | — | — | — | — | ✅ | — | — | **1/9** |
-| **[Freepik Spaces](#7-freepik-spaces)** | — | — | — | — | — | — | ✅ | — | — | **1/9** |
+| **[Wireflow](#1-wireflow)** | ✅ | ✅ | ✅ | n/a | ✅ | ✅ | ✅ | ✅ | n/a | **7/9** |
+| **[Flora](#3-flora)** | ✅ | ✅ | n/a | ✅ | ✅ | ✅ | ✅ | ✅ | n/a | **7/9** |
+| **[ComfyUI (self-hosted)](#6-comfyui-self-hosted)** | ✅ | ✅ | n/a | ❌ | ✅ | n/a | ✅ | n/a | ✅ | **5/9** |
+| **[n8n](#8-n8n)** | ✅ | n/a | ✅ | n/a | n/a | n/a | ✅ | ✅ | ✅ | **5/9** |
+| **[Comfy Cloud](#5-comfy-cloud)** | ✅ | ✅ | n/a | ❌ | ✅ | n/a | ✅ | n/a | n/a | **4/9** |
+| **[Krea Nodes](#4-krea-nodes)** | ✅ | ✅ | n/a | n/a | n/a | n/a | ✅ | n/a | n/a | **3/9** |
+| **[Figma Weave](#2-figma-weave)** | n/a | n/a | n/a | n/a | n/a | n/a | ✅ | n/a | n/a | **1/9** |
+| **[Freepik Spaces](#7-freepik-spaces)** | n/a | n/a | n/a | n/a | n/a | n/a | ✅ | n/a | n/a | **1/9** |
 <!-- CAPABILITY-SCORES:END -->
 
 ## The tools
 
 ### 1. Wireflow
 
+![Wireflow screenshot](https://assets.wireflow.ai/competitors/wireflow-70f47ccd9660.png?v=r5)
+
 - **What it is:** A hosted node canvas for image, video and audio models. A saved workflow runs by ID through the REST API, and a hosted MCP connector exposes the same workflows to agents. See the [Wireflow workflow API](https://www.wireflow.ai/ai-workflow-api) overview.
 - **Limits:** The webhook is an inbound trigger URL and results come back by polling; a completion callback is not documented. The Idempotency-Key header is documented on the execute route. The API overview says there is no official SDK yet, and self-hosting is not documented.
 - **Note:** Documentation review 2026-09-28; product and account behaviour were not tested.
 - **Links:**
-  - [Homepage](https://www.wireflow.ai/ai-node-editor-with-api)
+  - [Homepage](https://www.wireflow.ai)
+  - [Wireflow AI node editor with API page](https://www.wireflow.ai/ai-node-editor-with-api)
   - [Docs](https://www.wireflow.ai/docs/api)
   - [Pricing](https://www.wireflow.ai/pricing)
-  - [Wireflow workflow API](https://www.wireflow.ai/ai-workflow-api)
   - [Official source 1](https://www.wireflow.ai/docs/api/run)
   - [Official source 2](https://www.wireflow.ai/docs/api/executions)
   - [Official source 3](https://www.wireflow.ai/docs/api/webhooks)
@@ -92,6 +103,8 @@ https://www.wireflow.ai/docs/api
 ```
 
 ### 2. Figma Weave
+
+![Figma Weave screenshot](https://assets.wireflow.ai/competitors/figma-weave-5b36dc3e4bc9.png?v=r5)
 
 - **What it is:** Figma's node-based canvas for AI image and video workflows. Published Weave workflows, called Weave tools, can be listed and run from an agent through the Figma MCP server.
 - **Limits:** The pricing page lists "Run workflows through API" as coming soon on the Enterprise plan, so there is no public REST API to call today. Running a Weave tool through MCP needs a paid standalone Weave account, spends Weave credits and asks the agent to confirm the credit cost first.
@@ -107,6 +120,8 @@ https://developers.figma.com/docs/figma-mcp-server/tools-and-prompts/
 ```
 
 ### 3. Flora
+
+![Flora screenshot](https://assets.wireflow.ai/competitors/flora-2cd907d1b38c.png?v=r5)
 
 - **What it is:** A node canvas whose saved workflows are called Techniques. The REST API runs a Technique by slug and returns a run to poll, and FLORA MCP exposes the same API surface to agents.
 - **Limits:** The API runs Techniques but does not create or edit them. Output URLs are long-lived but not permanent, so download what you need to keep. Self-hosting is not documented.
@@ -127,6 +142,8 @@ https://developer.flora.ai/api/
 
 ### 4. Krea Nodes
 
+![Krea Nodes screenshot](https://assets.wireflow.ai/competitors/krea-nodes-95d42b9442a2.png?v=r5)
+
 - **What it is:** Krea's node workflow canvas. A node app built in Nodes runs by version ID through the Krea API and returns a job that you track by ID.
 - **Limits:** The node-app execute reference lists no webhook header, idempotency key or cost field; webhooks are documented for generation requests. API calls draw on a separate USD API balance, and only workspace owners and admins can create API tokens.
 - **Note:** Documentation review 2026-09-28; product and account behaviour were not tested.
@@ -145,6 +162,8 @@ https://www.krea.ai/docs/developers/introduction
 ```
 
 ### 5. Comfy Cloud
+
+![Comfy Cloud screenshot](https://assets.wireflow.ai/competitors/comfy-cloud-ac7894e48d8d.png?v=r5)
 
 - **What it is:** Comfy's hosted ComfyUI service. Comfy API v2, in beta, runs an API-format workflow graph as a durable job that you poll by ID, and the older v1 Cloud API accepts the same graph at /api/prompt.
 - **Limits:** The API takes the exported graph in the request body; the v2 design notes say saved workflows are not in the first version, although the Cloud MCP server can run a saved workflow by name. The v2 spec rejects webhook_url today. API access needs a paid Cloud subscription, and spend is reported from invoices by a usage endpoint rather than in the job response.
@@ -165,6 +184,8 @@ https://docs.comfy.org/api-reference/v2/overview
 
 ### 6. ComfyUI (self-hosted)
 
+![ComfyUI (self-hosted) screenshot](https://assets.wireflow.ai/competitors/comfyui-95a2ddf92942.png?v=r5)
+
 - **What it is:** The open-source ComfyUI server on your own hardware. POST /prompt queues an API-format graph and returns a prompt_id, and /history plus the /ws WebSocket report results.
 - **Limits:** The native server routes document no idempotency, scopes or webhooks. The Comfy API v2 contract, with its Idempotency-Key, reaches a self-hosted server only through the beta comfy-api-proxy. Models, custom nodes and GPUs are yours to install and maintain.
 - **Note:** Documentation review 2026-09-28; product and account behaviour were not tested.
@@ -180,6 +201,8 @@ https://docs.comfy.org/development/comfyui-server/comms_routes
 ```
 
 ### 7. Freepik Spaces
+
+![Freepik Spaces screenshot](https://assets.wireflow.ai/competitors/freepik-spaces-01abfb6e9731.png?v=r5)
 
 - **What it is:** Freepik's node canvas, now sold under the Magnific name. The Magnific REST API covers individual model endpoints, and Magnific MCP can list and inspect Spaces.
 - **Limits:** Running a saved Space by API is not documented, and the MCP tool list has no tool that runs a Space, only spaces_list and spaces_view. The REST API authenticates with private server-side API keys only.
@@ -198,6 +221,8 @@ https://docs.magnific.com/introduction
 ```
 
 ### 8. n8n
+
+![n8n screenshot](https://assets.wireflow.ai/competitors/n8n-9d3655cbb45e.png?v=r5)
 
 - **What it is:** A workflow automation platform with AI nodes, available as a cloud service or self-hosted. A published workflow gets its own HTTP endpoint through a Webhook trigger node, and the instance-level MCP server can run workflows that are enabled for MCP.
 - **Limits:** The public REST API manages workflows and executions but has no endpoint that starts a run. With the Immediately response mode, the Webhook node answers "Workflow got started" rather than a job ID to poll. API key scopes are an Enterprise plan feature, and the API is not available during the free trial.
@@ -345,12 +370,12 @@ Flora and Wireflow document the most of the run lifecycle: a saved-workflow run 
 
 ## Acceptance recipe
 
-- Pick one real workflow and note its inputs, its models and one expected output.
-- Start a run from code the documented way: by saved ID, or by posting the exported graph.
-- Retry the same request with the same idempotency key, where one exists, and confirm no duplicate run.
-- Fetch the result by polling or a completion webhook, then force a failure and check the error you get back.
-- Compare the cost the platform reports for the run with your billing page.
-- Create a key with the narrowest scope that can still run the workflow and confirm it cannot edit or delete.
+1. Pick one real workflow and note its inputs, its models and one expected output.
+2. Start a run from code the documented way: by saved ID, or by posting the exported graph.
+3. Retry the same request with the same idempotency key, where one exists, and confirm no duplicate run.
+4. Fetch the result by polling or a completion webhook, then force a failure and check the error you get back.
+5. Compare the cost the platform reports for the run with your billing page.
+6. Create a key with the narrowest scope that can still run the workflow and confirm it cannot edit or delete.
 
 ## Evaluation record
 
@@ -358,7 +383,7 @@ Record the platform, workflow revision, request ID, idempotency key, final statu
 
 ## How this list is maintained
 
-- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run — edit the JSON, not the tables.
+- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run, so edit the JSON, not the tables.
 - [`scripts/update.js`](scripts/update.js) fetches star counts and latest release tags from the GitHub API for the tools that publish an official repo, stamps the check date, and regenerates the tables. `--offline` regenerates without the network; `--check` exits non-zero if the README has drifted from the data.
 - [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) runs it weekly and on manual dispatch, and commits only when the data actually changed.
 - Prices are deliberately not stored as numbers. A stale price in a comparison table is worse than no price, so the table links to each vendor's own pricing page.
@@ -369,7 +394,7 @@ Corrections and additions are welcome, including corrections to the entry for th
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain. Take the data, fork the list, no attribution required.
+[CC0 1.0 Universal](LICENSE), public domain. Take the data, fork the list, no attribution required.
 
 ---
 
