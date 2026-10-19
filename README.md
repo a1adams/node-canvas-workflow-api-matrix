@@ -14,7 +14,7 @@ A maintained dataset of **node-based ai workflow api** options: what each one co
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-12** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-19** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -55,9 +55,9 @@ One row per tool, one column per thing people actually check before committing. 
 | **[Flora](#3-flora)** | Hosted MCP, Streamable HTTP, OAuth 2.1 | Yes | [check](https://flora.ai/pricing) | Image, video, audio and text generations | [pricing](https://flora.ai/pricing) | n/a |
 | **[Krea Nodes](#4-krea-nodes)** | Hosted MCP, Streamable HTTP, OAuth or API token | Yes | n/a | Image, video, audio and 3D model endpoints | n/a | n/a |
 | **[Comfy Cloud](#5-comfy-cloud)** | Hosted MCP (public beta), OAuth or API key | Yes | [check](https://comfy.org/pricing) | ComfyUI nodes plus partner models | [pricing](https://comfy.org/pricing) | n/a |
-| **[ComfyUI (self-hosted)](#6-comfyui-self-hosted)** | comfy-mcp, local stdio server | Yes | n/a | Models and custom nodes you install | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 137,099 ★, v0.39.0 |
+| **[ComfyUI (self-hosted)](#6-comfyui-self-hosted)** | comfy-mcp, local stdio server | Yes | n/a | Models and custom nodes you install | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 139,213 ★, v0.42.1 |
 | **[Freepik Spaces](#7-freepik-spaces)** | Magnific MCP, Streamable HTTP, OAuth | n/a | [check](https://docs.magnific.com/pricing) | Image, video and audio model endpoints | [pricing](https://docs.magnific.com/pricing) | n/a |
-| **[n8n](#8-n8n)** | Instance-level MCP server and MCP Server Trigger node | Yes | [check](https://n8n.io/pricing/) | Workflow automation with AI nodes | [pricing](https://n8n.io/pricing/) | [n8n-io/n8n](https://github.com/n8n-io/n8n), 207,096 ★, n8n@2.42.7 |
+| **[n8n](#8-n8n)** | Instance-level MCP server and MCP Server Trigger node | Yes | [check](https://n8n.io/pricing/) | Workflow automation with AI nodes | [pricing](https://n8n.io/pricing/) | [n8n-io/n8n](https://github.com/n8n-io/n8n), 207,989 ★, n8n@2.43.8 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
