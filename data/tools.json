@@ -1,7 +1,7 @@
 {
   "keyword": "node-based ai workflow api",
   "title": "Node-based AI workflow API matrix: runs, webhooks, idempotency and MCP across 8 canvases",
-  "lastChecked": "2026-11-16",
+  "lastChecked": "2026-11-23",
   "capabilityChecks": [
     {
       "key": "runWorkflowViaApi",
@@ -270,11 +270,11 @@
         "selfHost": true
       },
       "live": {
-        "stars": 147158,
-        "lastPush": "2026-11-16T07:16:01Z",
-        "latestRelease": "v0.45.0",
-        "latestReleaseDate": "2026-11-10",
-        "checkedAt": "2026-11-16"
+        "stars": 148271,
+        "lastPush": "2026-11-23T16:35:28Z",
+        "latestRelease": "v0.46.0",
+        "latestReleaseDate": "2026-11-18",
+        "checkedAt": "2026-11-23"
       }
     },
     {
@@ -348,11 +348,11 @@
         "selfHost": true
       },
       "live": {
-        "stars": 210607,
-        "lastPush": "2026-11-16T15:38:02Z",
-        "latestRelease": "n8n@2.47.7",
-        "latestReleaseDate": "2026-11-13",
-        "checkedAt": "2026-11-16"
+        "stars": 211918,
+        "lastPush": "2026-11-23T17:58:58Z",
+        "latestRelease": "n8n@2.48.8",
+        "latestReleaseDate": "2026-11-23",
+        "checkedAt": "2026-11-23"
       }
     }
   ]
